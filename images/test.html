@@ -250,16 +250,7 @@ window.addEventListener('DOMContentLoaded', function() {
     });
 
 });
-var xhr = new XMLHttpRequest();
-xhr.open('GET', 'http://kode-sumber.github.io/images/jquery-1.12.0.js.png');
-xhr.onreadystatechange = function(e) {
-  if(xhr.readyState === 4)
-    console.log("got result: ", xhr.responseText);
-	var response =xhr.responseText;
-            //$("#code2").value = response;
-            JS2PNG.Execute(response);
-};
-xhr.send();
+
 </script>
 
 
